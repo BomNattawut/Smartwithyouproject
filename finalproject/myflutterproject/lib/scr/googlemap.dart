@@ -58,7 +58,7 @@ class _PartyMapScreenState extends State<PartyMapScreen> {
       return;
     }
 
-    final String apiKey = "AIzaSyCKXLb2SiCsJngW-gwXXIL6W9Cq_VzvAEU"; // 🔑 ใช้ API Key ที่ถูกต้อง
+    final String apiKey = ""; // 🔑 ใช้ API Key ที่ถูกต้อง
     final String url =
         "https://maps.googleapis.com/maps/api/directions/json?origin=${currentLocation!.latitude},${currentLocation!.longitude}&destination=${destination.latitude},${destination.longitude}&key=$apiKey";
 
